@@ -1,0 +1,16 @@
+{
+  "name": "talkeos-websocket-server",
+  "version": "1.0.0",
+  "description": "Simple WebSocket server for Talkeos chat application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.14.0"
+  },
+  "keywords": ["websocket", "chat", "realtime"],
+  "author": "Talkeos",
+  "license": "MIT"
+}
