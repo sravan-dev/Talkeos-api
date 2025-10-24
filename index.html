@@ -457,7 +457,7 @@
                 return colors[Math.abs(hash) % colors.length];
             }
 
-            formatTimestamp(timestamp) {
+            formatTime(timestamp) {
                 if (!timestamp) return '';
                 const date = new Date(timestamp);
                 return date.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
